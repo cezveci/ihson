@@ -1,0 +1,62 @@
+ERROR - 2012-05-31T11:36:28+03:00 - exception 'ErrorException' with message 'Missing argument 1 for findProducts()' in /var/www/biddev/modx/assets/components/ihson/api/Products.php:4
+Stack trace:
+#0 /var/www/biddev/modx/assets/components/ihson/api/Products.php(4): Slim::handleErrors(2, 'Missing argumen...', '/var/www/biddev...', 4, Array)
+#1 [internal function]: findProducts()
+#2 /var/www/biddev/modx/assets/components/ihson/api/Slim/Route.php(395): call_user_func_array('findProducts', Array)
+#3 /var/www/biddev/modx/assets/components/ihson/api/Slim/Slim.php(1145): Slim_Route->dispatch()
+#4 /var/www/biddev/modx/assets/components/ihson/api/Slim/Middleware/Flash.php(84): Slim->call()
+#5 /var/www/biddev/modx/assets/components/ihson/api/Slim/Middleware/MethodOverride.php(91): Slim_Middleware_Flash->call()
+#6 /var/www/biddev/modx/assets/components/ihson/api/Slim/Middleware/PrettyExceptions.php(65): Slim_Middleware_MethodOverride->call()
+#7 /var/www/biddev/modx/assets/components/ihson/api/Slim/Slim.php(1097): Slim_Middleware_PrettyExceptions->call()
+#8 /var/www/biddev/modx/assets/components/ihson/api/index.php(28): Slim->run()
+#9 {main}
+DEBUG - 2012-05-31T11:50:12+03:00 - Bilinmiyor..
+DEBUG - 2012-05-31T11:50:12+03:00 - Bistürü Ucu No:15
+DEBUG - 2012-05-31T11:50:12+03:00 - Uzun Bistirü
+DEBUG - 2012-05-31T11:50:12+03:00 - Ameliyat İpi 1mm
+ERROR - 2012-05-31T11:50:12+03:00 - add product with id:-6 ERROR:SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INFO - 2012-05-31T11:50:12+03:00 - added new product with id:-6
+DEBUG - 2012-05-31T11:50:12+03:00 - Beher
+ERROR - 2012-05-31T11:50:12+03:00 - add product with id:-7 ERROR:SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INFO - 2012-05-31T11:50:12+03:00 - added new product with id:-7
+DEBUG - 2012-05-31T11:50:56+03:00 - 5Ml Şırınga
+DEBUG - 2012-05-31T11:50:56+03:00 - Antibakteriyel Vücüt Temizleme Mendili
+DEBUG - 2012-05-31T11:50:56+03:00 - Bilinmiyor..
+DEBUG - 2012-05-31T11:50:56+03:00 - Bistürü Ucu No:15
+DEBUG - 2012-05-31T11:50:56+03:00 - Plazma Sect Süper Loop
+DEBUG - 2012-05-31T11:50:56+03:00 - Uzun Bistirü
+DEBUG - 2012-05-31T11:51:23+03:00 - 5Ml Şırınga
+DEBUG - 2012-05-31T11:51:23+03:00 - Antibakteriyel Vücüt Temizleme Mendili
+DEBUG - 2012-05-31T11:51:23+03:00 - Bilinmiyor..
+DEBUG - 2012-05-31T11:51:23+03:00 - Bistürü Ucu No:13
+DEBUG - 2012-05-31T11:51:23+03:00 - Plazma Sect Süper Loop
+DEBUG - 2012-05-31T11:51:23+03:00 - Uzun Bistirü
+DEBUG - 2012-05-31T11:51:59+03:00 - Ameliyat İpi
+ERROR - 2012-05-31T11:51:59+03:00 - add product with id:-1 ERROR:SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INFO - 2012-05-31T11:51:59+03:00 - added new product with id:-1
+DEBUG - 2012-05-31T11:53:29+03:00 - Ameliyat İpi
+ERROR - 2012-05-31T11:53:29+03:00 - add product with id:-1 ERROR:SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INFO - 2012-05-31T11:53:29+03:00 - added new product with id:-1
+DEBUG - 2012-05-31T11:55:08+03:00 - kalın iplil
+ERROR - 2012-05-31T11:55:08+03:00 - add product with id:-1 ERROR:SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+INFO - 2012-05-31T11:55:08+03:00 - added new product with id:-1
+DEBUG - 2012-05-31T11:56:05+03:00 - Ameliyat İpi 0,5mm
+ERROR - 2012-05-31T11:56:05+03:00 - add product with id:-1 ERROR:SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`ihson_dev`.`is_product`, CONSTRAINT `product_fk_1` FOREIGN KEY (`product_category_id`) REFERENCES `is_product_category` (`product_category_id`))
+INFO - 2012-05-31T11:56:05+03:00 - added new product with id:-1
+DEBUG - 2012-05-31T11:59:42+03:00 - Ameliyat İpi 0,5mm
+INFO - 2012-05-31T11:59:42+03:00 - added new product with id:9
+DEBUG - 2012-05-31T12:06:43+03:00 - Ameliyat İpi 0,5mm
+DEBUG - 2012-05-31T12:06:43+03:00 - Boks Gömleği Disposable
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:10
+DEBUG - 2012-05-31T12:06:43+03:00 - Cathejel
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:11
+DEBUG - 2012-05-31T12:06:43+03:00 - Böbrek Küvet Disposable
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:12
+DEBUG - 2012-05-31T12:06:43+03:00 - Cerrahi Bone Bayan
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:13
+DEBUG - 2012-05-31T12:06:43+03:00 - Ultrason Jeli
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:14
+DEBUG - 2012-05-31T12:06:43+03:00 - Elastic Bandaj 10cm
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:15
+DEBUG - 2012-05-31T12:06:43+03:00 - Elastic Bandaj 20cm
+INFO - 2012-05-31T12:06:43+03:00 - added new product with id:16
